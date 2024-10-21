@@ -1,0 +1,94 @@
+* {
+  margin-left: 10px;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+  padding: 20px;
+}
+
+header {
+  width: 400px;
+  background: #dcb405;
+  color: white;
+  padding: 10px 10px;
+  text-align: center;
+  border-radius: 15px;
+  margin-bottom: 20px;
+  margin-left: 20px;
+}
+
+h1,
+h2 {
+  color: black;
+  margin: 30px;
+}
+
+form {
+  width: 400px;
+}
+
+form label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+form input[type="text"],
+form input[type="number"] {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+form input[type="submit"] {
+  background: #dcb405;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+form input[type="submit"]:hover {
+  background: #45a049;
+}
+
+#product-list {
+  width: 400px;
+  list-style: none;
+  padding: 0;
+}
+
+.product {
+  background: white;
+  padding: 15px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 1);
+}
+
+button {
+  background: #dcb405;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+
+  margin-left: 40px;
+}
+
+button:hover {
+  background: blue;
+}
+
+.sort-buttons {
+  margin-bottom: 20px;
+}
